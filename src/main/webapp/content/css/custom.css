@@ -1,0 +1,29 @@
+:root {
+    --color-white: #f8f9fa;
+    --color-black: #000;
+    --color-silver: #868282;
+}
+
+body {
+    background-color: var(--color-white) !important;
+}
+
+.navbar.navbar-dark,
+.bg-dark {
+    background-color: var(--color-white) !important;
+}
+
+.navbar.navbar-dark .navbar-title {
+    color: var(--color-black);
+}
+
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--color-black) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--color-silver) !important;
+}
